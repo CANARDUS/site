@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>ÉTERNELLE HORLOGERIE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Georgia", serif;
+        }
+
+        body {
+            background-color: #0e0e0e;
+            color: #f5f5f5;
+        }
+
+        header {
+            height: 100vh;
+            background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+            url("https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3") center/cover no-repeat;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 80px;
+        }
+
+        nav h1 {
+            letter-spacing: 3px;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 40px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #f5f5f5;
+            font-size: 14px;
+            letter-spacing: 1px;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #c9a45c;
+        }
+
+        .hero {
+            text-align: center;
+            margin-bottom: 120px;
+        }
+
+        .hero h2 {
+            font-size: 60px;
+            letter-spacing: 5px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+            margin-bottom: 40px;
+            color: #ddd;
+        }
+
+        .hero button {
+            padding: 15px 40px;
+            background-color: transparent;
+            border: 1px solid #c9a45c;
+            color: #c9a45c;
+            font-size: 14px;
+            letter-spacing: 2px;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .hero button:hover {
+            background-color: #c9a45c;
+            color: #0e0e0e;
+        }
+
+        section {
+            padding: 100px 80px;
+        }
+
+        .presentation {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+
+        .presentation img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .presentation h3 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        .presentation p {
+            line-height: 1.8;
+            color: #ccc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px;
+            border-top: 1px solid #222;
+            font-size: 12px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h1>ÉTERNELLE</h1>
+        <ul>
+            <li><a href="#">Accueil</a></li>
+            <li><a href="#">Collections</a></li>
+            <li><a href="#">Savoir-faire</a></li>
+            <li><a href="#">Boutique</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h2>L’ART DU TEMPS</h2>
+        <p>
+            Des montres d’exception façonnées avec précision, héritage et élégance.
+            Chaque seconde devient intemporelle.
+        </p>
+        <button>DÉCOUVRIR LA COLLECTION</button>
+    </div>
+</header>
+
+<section>
+    <div class="presentation">
+        <div>
+            <h3>Un savoir-faire horloger unique</h3>
+            <p>
+                Depuis des générations, nos maîtres horlogers assemblent chaque pièce
+                avec une exigence absolue. Mécanismes suisses, matériaux nobles et design
+                intemporel s’unissent pour créer des montres d’exception.
+            </p>
+        </div>
+        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="Montre de luxe">
+    </div>
+</section>
+
+<footer>
+    © 2025 ÉTERNELLE HORLOGERIE — Tous droits réservés
+</footer>
+
+</body>
+</html>
